@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: #2e4a3d; /* Dark pistachio for links */
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navigation a:hover {
+  color: #1b2f26; 
+  transform: scale(1.1); 
+}

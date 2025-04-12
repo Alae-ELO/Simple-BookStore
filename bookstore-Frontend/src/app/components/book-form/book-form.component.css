@@ -1,0 +1,87 @@
+.form-wrapper {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #e5eee5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+  }
+  
+  .form-subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+  }
+  
+  input,
+  textarea {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007a5c;
+    outline: none;
+  }
+  
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #0c5f3d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  p{
+    color:#6c6868;
+  }
+  button:hover:not(:disabled) {
+    background-color: #094d32;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
